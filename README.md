@@ -1,5 +1,5 @@
 # Vortex_in_Cell_Method
-Implementation of a Two Dimensional Vortex-in-Cell Method for Fluid Dynamics: This code documents the process I went through to gain an understanding of fluid dynamics using a two-dimensional vortex particle in cell method. Utilizing ordinary and partial differential equations, we took an in-depth look at the interaction between particles based off their vorticity strength in two dimensions. This code later examines three tests to determine the effectiveness.
+Implementation of a Two Dimensional Vortex-in-Cell Method for Fluid Dynamics: This code documents the process I went through to gain an understanding of fluid dynamics using a two-dimensional vortex particle in cell method. Utilizing ordinary and partial differential equations, we took an in-depth look at the interaction between particles based off their vorticity strength in two dimensions. This code later examines four tests to determine the effectiveness.
 
 ## Getting Started
 
@@ -7,11 +7,11 @@ This code has the option to use two different solvers to solve for Poissons equa
 
 ### Prerequisites
 
-This code assumes that you have and can run Python3, if you do not follow this [link](https://realpython.com/installing-python/)
+This code assumes that you have and can run Python3, if you do not have Python 3 follow this [link](https://realpython.com/installing-python/) to download and install it. 
 
 ## Running the tests
 
-All the test should run on their own. In order to avoid confusion when reading the vorticity strength of each particle they have been left out of the test sections below and are better explained in the supporting PDF files.
+All the test should run on their own once the file is ran. In order to avoid confusion when reading the vorticity strength of each particle, they have been left out of the test sections below and are better explained in the supporting PDF file tit led "David_Akinyemi_VIC_ResearchPaper".
 
 ### Test 1
 
@@ -25,13 +25,13 @@ Test two contained two particles, one particle at (0.25, 0.5) and another at (0.
 
 Test three involved two particles and allowed us to see if they interact correctly. One particle is located at (0.25, 0.5) and another at (0.75, 0.5). The expectation is that both particles should rotate around the center (0.5, 0.5).
 
-### Test 4
+### Test 4: Complicated Distribution
 
-Test four is best explained looking at the supporting PDF document titled ""
+Test four includes 2 complicated distributions. It is best explained looking at the supporting PDF document titled "Test4".
 
 ## Deployment
 
-Assuming you have changed into the directory that contains the both the Vortex_in_Cell.py file and the ConvSolver.py file, in your terminal window run the following code:
+Assuming you have changed into the directory "Python_Code" that contains the both the Vortex_in_Cell.py file and the ConvSolver.py file, in your terminal window run the following code:
 
 ```
 python3 Vortex_in_Cell.py
