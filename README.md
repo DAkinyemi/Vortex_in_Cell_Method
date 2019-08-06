@@ -1,5 +1,5 @@
 # Vortex_in_Cell_Method
-Implementation of a Two Dimensional Vortex-in-Cell Method for Fluid Dynamics: This code documents the process my team and I went through to gain an understanding of fluid dynamics using a two-dimensional vortex particle in cell method. Utilizing ordinary and partial differential equations, we took an in-depth look at the interaction between particles based off their vorticity strength in two dimensions. This code later examines three tests to determine the effectiveness.
+Implementation of a Two Dimensional Vortex-in-Cell Method for Fluid Dynamics: This code documents the process I went through to gain an understanding of fluid dynamics using a two-dimensional vortex particle in cell method. Utilizing ordinary and partial differential equations, we took an in-depth look at the interaction between particles based off their vorticity strength in two dimensions. This code later examines three tests to determine the effectiveness.
 
 ## Getting Started
 
